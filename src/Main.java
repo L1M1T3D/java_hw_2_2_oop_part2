@@ -10,11 +10,10 @@ public class Main {
         Vehicle bicycle2 = new Bicycle("bicycle2", 2);
 
         ServiceStation station = new ServiceStation();
-        station.check(car1);
-        station.check(car2);
-        station.check(truck1);
-        station.check(truck2);
-        station.check(bicycle1);
-        station.check(bicycle2);
+
+        Vehicle[] vehicles = {car1, car2, truck1, truck2, bicycle1, bicycle2};
+        for (Vehicle vehicle : vehicles) {
+            station.check(vehicle);
+        }
     }
 }
