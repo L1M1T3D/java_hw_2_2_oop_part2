@@ -22,4 +22,8 @@ public abstract class Vehicle {
     }
 
     public abstract void service();
+
+    public void checkEngine() {
+        System.out.println("Проверяем двигатель");
+    }
 }

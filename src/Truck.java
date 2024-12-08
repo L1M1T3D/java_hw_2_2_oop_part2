@@ -12,10 +12,6 @@ public class Truck extends Vehicle {
         checkTrailer();
     }
 
-    private void checkEngine() {
-        System.out.println("Проверяем двигатель");
-    }
-
     private void checkTrailer() {
         System.out.println("Проверяем прицеп");
     }

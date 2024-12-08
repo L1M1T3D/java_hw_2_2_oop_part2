@@ -10,8 +10,4 @@ public class Car extends Vehicle {
         updateTyre();
         checkEngine();
     }
-
-    private void checkEngine() {
-        System.out.println("Проверяем двигатель");
-    }
 }
